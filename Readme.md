@@ -1,6 +1,6 @@
 # ding-downloader
 
-Download your Ring doorbell videos from The Cloud™. Written in an hour with zero error handling, but it does throttle itself per-request type and globally. This does exactly what I need it to do (make local backups on a cron job)
+Download your Ring doorbell videos from The Cloud™. Written in an hour with zero error handling, but it does throttle itself per-request type and globally. This does exactly what I need it to do (make local backups on a cron job) but may take some modification to get it to do what YOU want it to do.
 
 Note: If you want this to run on a cron job, you'll have to also write a script to refresh your session token regularly. I'll leave that as an exercise to the reader.
 
