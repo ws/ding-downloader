@@ -14,3 +14,7 @@ The raw video files from Ring's server. That means a 1280 × 720 MP4 with no
 2. Get your session token by going to Ring.com, logging in, opening your dev tools, and copying the cookie value for \_session_id (it should be 32 chars)
 3. Run `node app.js YOURSESSIONTOKENHERE` or put your session token on line 13 of `download.js`
 4. Wait
+
+### Why am I getting a SyntaxError: Unexpected identifier?
+
+You probably ran `node download.js`- either run `node app.js` or `node -r esm download.js`
