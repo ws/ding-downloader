@@ -1,4 +1,10 @@
 {
+  "name": "ding-downloader",
+  "version": "1.0.0",
+  "description": "Download your Ring doorbell videos from The Cloud",
+  "repository": "https://github.com/ws/ding-downloader.git",
+  "author": "Will Smidlein <will@willsmidlein.com>",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.7.1",
     "esm": "^3.2.25",
